@@ -5,9 +5,8 @@ import pyodbc
 SECRET_KEY = '123456790'
 
 # Create in-memory database
-# DATABASE_FILE = 'sample_db.sqlite'
-# SQLALCHEMY_DATABASE_URI = 'sqlite:///' + DATABASE_FILE
-SQLALCHEMY_DATABASE_URI = "mysql://mimin88:Bluefleet88@35.198.226.116/ipman"
+DATABASE_FILE = 'sample_db.sqlite'
+SQLALCHEMY_DATABASE_URI = 'sqlite:///' + DATABASE_FILE
 SQLALCHEMY_ECHO = True
 
 # Flask-Security config
